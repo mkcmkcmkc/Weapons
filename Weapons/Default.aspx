@@ -42,7 +42,7 @@
                             <asp:TextBox ID="Password" runat="server" class="form-control" name="password" placeholder="Password" required="required"></asp:TextBox>
                         </div>
                         <div class="form-group">
-                            <asp:Button ID="Login" runat="server" Text="Login" class="btn btn-primary btn-lg btn-block login-btn" />
+                            <asp:Button ID="Login" runat="server" Text="Login" class="btn btn-primary btn-lg btn-block login-btn" OnClick="Login_Click" />
                         </div>
                     </div>
                     <div class="modal-footer">
